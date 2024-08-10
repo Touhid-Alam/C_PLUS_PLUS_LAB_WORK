@@ -1,0 +1,23 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+
+int main() {
+
+int num,sum,rem;
+
+cout<<"Input a number : "<<endl;
+cin>>num;
+
+while(num>0) {
+    rem=num%10;
+    sum=sum+rem;
+    num=num/10;
+
+}
+
+cout<<"The sum of digits of "<<num<<" is : "<<sum<<endl;
+
+
+return 0;
+}
